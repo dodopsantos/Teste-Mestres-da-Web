@@ -16,8 +16,14 @@ export const Container = styled.div`
   .vert-offset-top-5 {
     padding-top: 15.5em;
   }
-  h3,
-  p,
+  h3 {
+    color: ${(props) => props.theme.colors.primary};
+  }
+
+  p {
+    font-size: 20px;
+    color: ${(props) => props.theme.colors.secundary};
+  }
   a,
   label {
     color: ${(props) => props.theme.colors.secundary};
@@ -43,11 +49,12 @@ export const Container = styled.div`
       padding: 20px;
       border-radius: 30px;
       border: none;
-      font-size: 14px;
     }
 
     button {
       background-color: ${(props) => props.theme.colors.primary};
+      color: ${(props) => props.theme.colors.text};
+      font-size: 28px;
     }
   }
 

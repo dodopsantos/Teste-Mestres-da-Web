@@ -63,7 +63,7 @@ const Login: React.FC = () => {
             </Row>
             <Row className="mt-3 mb-3">
               <button className="submit" onClick={handleLogin}>
-                Login
+                Entrar
               </button>
             </Row>
             <Row className="ml-3 mt-3">
